@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/geeb/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/geeb/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+	vendor/lge/geeb/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/lge/geeb/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/geeb/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/geeb/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
