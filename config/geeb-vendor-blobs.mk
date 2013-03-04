@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
 	vendor/houstonn/proprietary/media/Whistle.ogg:system/media/audio/notifications/s_whistle.ogg
 
 PRODUCT_COPY_FILES += \
-    vendor/houstonn/proprietary/bin/rild:system/bin/rild \
     vendor/houstonn/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/houstonn/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/houstonn/proprietary/bin/btnvtool:system/bin/btnvtool \
