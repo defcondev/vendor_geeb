@@ -19,10 +19,10 @@
 # Version information used on all builds
 #PRODUCT_BUILD_PROP_OVERRIDES += BUILD_EST_DATE=$(shell date +"%s")
 
-# Extra packages from CM-10.1
-#PRODUCT_PACKAGES += \
-#    CMFileManager
-#    Torch
+# Extra packages prebuilt for now
+PRODUCT_PACKAGES += \
+    CMFileManager \
+    com.miui.player-1
 
 # bootani I chose
 #PRODUCT_COPY_FILES += \
