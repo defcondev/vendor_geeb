@@ -19,6 +19,9 @@
 # Version information used on all builds
 #PRODUCT_BUILD_PROP_OVERRIDES += BUILD_EST_DATE=$(shell date +"%s")
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.adb.notify=0
+
 # Extra packages prebuilt for now
 PRODUCT_PACKAGES += \
     CMFileManager \
