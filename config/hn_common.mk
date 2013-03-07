@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #    com.miui.player-1
 PRODUCT_COPY_FILES += \
      vendor/houstonn/prebuilt/common/apk/CMFileManager.apk:system/app/CMFileManager.apk \
-     vendor/houstonn/prebuilt/common/apk/com.miui.apk:system/app/com.miui.apk
+     vendor/houstonn/prebuilt/common/apk/com.miui.player-1.apk:system/app/com.miui.player-1.apk
 	
 # bootani I chose
 #PRODUCT_COPY_FILES += \
