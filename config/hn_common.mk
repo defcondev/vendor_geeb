@@ -23,10 +23,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.adb.notify=0
 
 # Extra packages prebuilt for now
-PRODUCT_PACKAGES += \
-    CMFileManager \
-    com.miui.player-1
-
+#PRODUCT_PACKAGES += \
+#    CMFileManager \
+#    com.miui.player-1
+PRODUCT_COPY_FILES += \
+     vendor/houstonn/prebuilt/common/apk/CMFileManager.apk:system/app/CMFileManager.apk \
+     vendor/houstonn/prebuilt/common/apk/com.miui.apk:system/app/com.miui.apk
+	
 # bootani I chose
 #PRODUCT_COPY_FILES += \
 #        vendor/houstonn/prebuilt/common/bootanimation/XHDPI.zip:system/media/bootanimation.zip
