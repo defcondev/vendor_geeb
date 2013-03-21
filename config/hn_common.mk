@@ -31,4 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/houstonn/prebuilt/common/apk/com.miui.player-1.apk:system/app/com.miui.player-1.apk
 #	vendor/houstonn/prebuilt/common/apk/BBQBenchmark.apk:system/app/BBQBenchmark.apk
 
+PRODUCT_COPY_FILES += \
+    vendor/houstonn/prebuilt/common/etc/init.d/S98cpu_sleep:system/etc/init.d/S98cpu_sleep
+
 $(call inherit-product, vendor/houstonn/config/geeb-vendor-blobs.mk)
