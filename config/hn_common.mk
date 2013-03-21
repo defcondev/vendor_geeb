@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,34 +22,13 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.adb.notify=0
 
-# Extra packages prebuilt for now
-#PRODUCT_PACKAGES += \
-#    CMFileManager \
-#    com.miui.player-1
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    rild.libargs=-d /dev/smd0
 
 PRODUCT_COPY_FILES += \
     vendor/houstonn/prebuilt/common/apk/CMFileManager.apk:system/app/CMFileManager.apk \
     vendor/houstonn/prebuilt/common/apk/CMFileManagerThemes.apk:system/app/CMFileManagerThemes.apk \
     vendor/houstonn/prebuilt/common/apk/com.miui.player-1.apk:system/app/com.miui.player-1.apk
 #	vendor/houstonn/prebuilt/common/apk/BBQBenchmark.apk:system/app/BBQBenchmark.apk
-	
-# bootani I chose
-#PRODUCT_COPY_FILES += \
-#        vendor/houstonn/prebuilt/common/bootanimation/XHDPI.zip:system/media/bootanimation.zip
-
-# Live wallpaper packages
-PRODUCT_PACKAGES := \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    VisualizationWallpapers \
-    librs_jni
-
-# Publish that we support the live wallpaper feature.
-#PRODUCT_COPY_FILES := \
-#    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
-
-# Pick up overlay for features that depend on non-open-source files
-#DEVICE_PACKAGE_OVERLAYS := vendor/houstonn/overlay
 
 $(call inherit-product, vendor/houstonn/config/geeb-vendor-blobs.mk)

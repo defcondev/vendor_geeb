@@ -14,10 +14,3 @@
 
 # Include houstonn common configuration
 include vendor/houstonn/config/hn_common.mk
-
-# Override AOSP build properties
-#PRODUCT_NAME := geeb
-#PRODUCT_BRAND := LG
-#PRODUCT_MODEL := Optimus G
-#PRODUCT_MANUFACTURER := LGE
-#PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/geeb:4.2/JOP40C/527662:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.2 JOP40C 527662 release-keys"
