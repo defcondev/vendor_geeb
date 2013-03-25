@@ -35,10 +35,10 @@ PRODUCT_COPY_FILES += \
     vendor/houstonn/prebuilt/common/etc/init.d/S98cpu_sleep:system/etc/init.d/S98cpu_sleep
 
 PRODUCT_COPY_FILES += \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia.ogg.ogg:system/media/audio/ringtones/xperia.ogg \
-	vendor/houstonn/prebuilt/common/media/sounds/xperia_z_breeze.ogg.ogg:system/media/audio/ringtones/xperia_z_breeze.ogg \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia_z_rise.ogg.ogg:system/media/audio/ringtones/xperia_z_rise.ogg \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia1_z.ogg.ogg:system/media/audio/ringtones/xperia1_z.ogg \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia2_z.ogg.ogg:system/media/audio/ringtones/xperia2_z.ogg
+    vendor/houstonn/prebuilt/common/media/sounds/xperia.ogg:system/media/audio/ringtones/xperia.ogg \
+	vendor/houstonn/prebuilt/common/media/sounds/xperia_z_breeze.ogg:system/media/audio/ringtones/xperia_z_breeze.ogg \
+    vendor/houstonn/prebuilt/common/media/sounds/xperia_z_rise.ogg:system/media/audio/ringtones/xperia_z_rise.ogg \
+    vendor/houstonn/prebuilt/common/media/sounds/xperia1_z.ogg:system/media/audio/ringtones/xperia1_z.ogg \
+    vendor/houstonn/prebuilt/common/media/sounds/xperia2_z.ogg:system/media/audio/ringtones/xperia2_z.ogg
 	
 $(call inherit-product, vendor/houstonn/config/geeb-vendor-blobs.mk)
