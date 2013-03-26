@@ -26,9 +26,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     rild.libargs=-d /dev/smd0
 
 PRODUCT_COPY_FILES += \
-#   vendor/houstonn/prebuilt/common/apk/CMFileManager.apk:system/app/CMFileManager.apk \
-#   vendor/houstonn/prebuilt/common/apk/CMFileManagerThemes.apk:system/app/CMFileManagerThemes.apk \
-    vendor/houstonn/prebuilt/common/apk/MIUIMusic2.3.2.apk:system/app/MIUIMusic2.3.2.apk
+    vendor/houstonn/prebuilt/common/apk/com.miuimusic232.apk:system/app/com.miuimusic232.apk
 #	vendor/houstonn/prebuilt/common/apk/BBQBenchmark.apk:system/app/BBQBenchmark.apk
 
 PRODUCT_COPY_FILES += \
