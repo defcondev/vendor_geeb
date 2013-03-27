@@ -20,8 +20,11 @@
 #PRODUCT_BUILD_PROP_OVERRIDES += BUILD_EST_DATE=$(shell date +"%s")
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.adb.notify=0
-
+    persist.adb.notify=0 \
+    debug.sf.hw=1 \
+    debug.egl.hw=1 \
+	debug.composition.type=dyn
+	
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     rild.libargs=-d /dev/smd0
 
