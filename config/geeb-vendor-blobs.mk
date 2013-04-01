@@ -16,10 +16,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/houstonn/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
-	vendor/houstonn/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-	vendor/houstonn/proprietary/media/Whistle.ogg:system/media/audio/notifications/s_whistle.ogg \
-	vendor/houstonn/proprietary/etc/dcm_settings.xml:system/etc/dcm_settings.xml
-	
+	vendor/houstonn/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so
 
 PRODUCT_COPY_FILES += \
     vendor/houstonn/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
