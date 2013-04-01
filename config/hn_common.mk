@@ -25,7 +25,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ime_vibration_pattern=0:20
 
 PRODUCT_COPY_FILES += \
-    vendor/houstonn/prebuilt/common/apk/com.miuimusic232.apk:system/app/com.miuimusic232.apk
+    vendor/houstonn/prebuilt/common/apk/com.miuimusic232.apk:system/app/com.miuimusic232.apk \
+    vendor/houstonn/prebuilt/common/apk/Xperia_Launcher_2.apk:system/app/Xperia_Launcher_2.apk
 
 PRODUCT_COPY_FILES += \
     vendor/houstonn/prebuilt/common/media/sounds/xperia.ogg:system/media/audio/ringtones/xperia.ogg \
