@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/houstonn/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
+    vendor/houstonn/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/houstonn/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so
 
 PRODUCT_COPY_FILES += \
@@ -82,6 +83,10 @@ PRODUCT_COPY_FILES += \
     vendor/houstonn/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/houstonn/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/houstonn/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/houstonn/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/houstonn/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/houstonn/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/houstonn/proprietary/lib/libchromatix_imx091_zsl.so:system/lib/libchromatix_imx091_zsl.so \
     vendor/houstonn/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
     vendor/houstonn/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
     vendor/houstonn/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \

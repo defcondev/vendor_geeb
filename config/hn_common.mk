@@ -18,7 +18,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
 	debug.composition.type=dyn \
     ro.kernel.checkjni=0 \
-    ro.media.enc.jpeg.quality=100 \
     video.accelerate.hw=1 \
 	debug.performance.tuning=1 \
 	persist.gps.qmienabled=true
