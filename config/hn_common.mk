@@ -12,15 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.adb.notify=0 \
-    debug.sf.hw=1 \
-    debug.egl.hw=1 \
-    debug.composition.type=gpu \
-    video.accelerate.hw=1 \
-    debug.performance.tuning=1 \
-    persist.gps.qmienabled=true
-
 PRODUCT_COPY_FILES += \
     vendor/houstonn/prebuilt/common/apk/com.miuimusic232.apk:system/app/com.miuimusic232.apk
 
