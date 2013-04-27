@@ -12,15 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_COPY_FILES += \
-    vendor/houstonn/prebuilt/common/apk/com.miuimusic232.apk:system/app/com.miuimusic232.apk
-
-PRODUCT_COPY_FILES += \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia.ogg:system/media/audio/ringtones/xperia.ogg \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia_z_breeze.ogg:system/media/audio/ringtones/xperia_z_breeze.ogg \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia_z_rise.ogg:system/media/audio/ringtones/xperia_z_rise.ogg \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia1_z.ogg:system/media/audio/ringtones/xperia1_z.ogg \
-    vendor/houstonn/prebuilt/common/media/sounds/xperia2_z.ogg:system/media/audio/ringtones/xperia2_z.ogg \
-    vendor/houstonn/proprietary/media/Whistle.ogg:system/media/audio/notifications/s_whistle.ogg
-	
 $(call inherit-product, vendor/houstonn/config/geeb-vendor-blobs.mk)
